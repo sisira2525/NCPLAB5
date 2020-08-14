@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    </head>
+<body>
+<script type="text/javascript">
+
+var avg=window.prompt("Enter exam score");
+    assignGrade(avg);
+    function assignGrade(avg)
+    {
+        try{
+            if (avg < 60){
+          document.write("Grade : F");      
+          } 
+        else if (avg < 70) {
+               documenty.write("Grade : D"); 
+                  } 
+        else if (avg < 80) 
+             {
+                document.write("Grade : C"); 
+        } else if (avg < 90) {
+                document.write("Grade : B"); 
+        } else if (avg < 100) {
+                document.write("Grade : A"); 
+
+        }
+        }
+        catch(e)
+        {
+        document.write("Invalid");
+        }
+       
+        for(i=60;i<=100;i++)
+        {
+         for(i=0;i<5;i++)
+         {
+            if (i< 60){ 
+          console.log("Grade : F for ",i);      
+          } 
+          else if (i < 70) {
+                console.log("Grade : D for ",i); 
+                  } 
+          else if (i<80) 
+             {
+                console.log("Grade : C for " ,i); 
+          } else if (i < 90) {
+                console.log("Grade : B for ",i); 
+          } else if (i < 100) {
+                console.log("Grade : A for ",i); 
+          }
+        }
+  
+        }
+}
+</script>
+</body>
+</html>

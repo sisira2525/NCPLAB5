@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<body>
+<p id="demo"></p>
+<script>
+function myFunction() {
+   
+var n=window.prompt("enter limit");
+ var n1=parseInt(n);
+ var a=[];
+ for(var i=0;i<n;i++)
+ {
+     a.push(window.prompt("enter srting"+i));
+ }  
+ a.sort();
+ return a.reverse();
+}
+document.getElementById("demo").innerHTML = myFunction();
+</script>
+
+</body>
+</html>
